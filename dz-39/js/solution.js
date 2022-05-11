@@ -18,6 +18,7 @@ function createTable(){
                 tr.append(td);
                 number +=1;
                 td.textContent = number;
+                if(number === value) break;
             }
             }
     }
